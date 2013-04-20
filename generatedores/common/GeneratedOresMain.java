@@ -1,5 +1,4 @@
 package mods.generatedores.common;
-//matt is awesome
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
