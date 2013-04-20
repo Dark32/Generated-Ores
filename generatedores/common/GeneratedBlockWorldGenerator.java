@@ -21,6 +21,18 @@ public class GeneratedBlockWorldGenerator implements IWorldGenerator {
         int Zcoord = blockZ + random.nextInt(16);
 
         (new WorldGenMinable(GeneratedOresMain.mundaneore.blockID, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
+
+        Ycoord = random.nextInt(2) + 60;
+
+        (new WorldGenMinable(GeneratedOresMain.magicore.blockID, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
+
+        Ycoord = random.nextInt(2) + 56;
+
+        (new WorldGenMinable(GeneratedOresMain.rareore.blockID, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
+
+        Ycoord = random.nextInt(2) + 54;
+
+        (new WorldGenMinable(GeneratedOresMain.legendaryore.blockID, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
     }
 
     private void generateNether(World world, Random random, int blockX, int blockZ) {
