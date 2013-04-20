@@ -54,10 +54,10 @@ public class GeneratedOresMain {
         GameRegistry.registerBlock(rareore, "rareore");
         GameRegistry.registerBlock(legendaryore, "legendaryore");
 
-        LanguageRegistry.addName(mundaneore, mundaneore.name);
-        LanguageRegistry.addName(magicore, magicore.name);
-        LanguageRegistry.addName(rareore, rareore.name);
-        LanguageRegistry.addName(legendaryore, legendaryore.name);
+        LanguageRegistry.addName(mundaneore, mundaneore.getUnlocalizedName());
+        LanguageRegistry.addName(magicore, magicore.getUnlocalizedName());
+        LanguageRegistry.addName(rareore, rareore.getUnlocalizedName());
+        LanguageRegistry.addName(legendaryore, legendaryore.getUnlocalizedName());
         
         GameRegistry.registerWorldGenerator(new GeneratedBlockWorldGenerator());
     }

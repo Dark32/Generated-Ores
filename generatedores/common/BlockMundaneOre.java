@@ -7,7 +7,6 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockMundaneOre extends Block {
-    public String name;
     public String harvesttool;
     public int harvestlevel;
 
@@ -17,7 +16,7 @@ public class BlockMundaneOre extends Block {
         this.setResistance(resistance);
         this.setStepSound(stepsound);
         this.setHardness(hardness);
-        this.name = name;
+        this.setUnlocalizedName(name);
         this.harvesttool = harvesttool;
         this.harvestlevel = harvestlevel;
     }
