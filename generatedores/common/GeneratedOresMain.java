@@ -57,7 +57,7 @@ public class GeneratedOresMain {
         LanguageRegistry.addName(magicore, magicore.name);
         LanguageRegistry.addName(rareore, rareore.name);
         LanguageRegistry.addName(legendaryore, legendaryore.name);
-
+        
         GameRegistry.registerWorldGenerator(new GeneratedBlockWorldGenerator());
     }
 
