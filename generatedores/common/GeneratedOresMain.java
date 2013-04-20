@@ -38,11 +38,11 @@ public class GeneratedOresMain {
     }
 
     @Init
-    public void init(FMLInitializationEvent event) {
-        mundaneore = new BlockMundaneOre(540, Material.rock, 89.3F, 89.5F, Block.soundMetalFootstep, "Mundane Ore", "pickaxe", 0);
-        magicore = new BlockMagicOre(541, Material.rock, 89.3F, 89.5F, Block.soundMetalFootstep, "Magic Ore", "pickaxe", 1);
-        rareore = new BlockRareOre(542, Material.rock, 89.3F, 89.5F, Block.soundMetalFootstep, "Rare Ore", "pickaxe", 2);
-        legendaryore = new BlockLegendaryOre(543, Material.rock, 89.3F, 89.5F, Block.soundMetalFootstep, "Legendary Ore", "pickaxe", 3);
+    public void load(FMLInitializationEvent event) {
+        mundaneore = new BlockMundaneOre(540, Material.rock, 25F, 25F, Block.soundMetalFootstep, "Mundane Ore", "pickaxe", 0);
+        magicore = new BlockMagicOre(541, Material.rock, 25F, 25F, Block.soundMetalFootstep, "Magic Ore", "pickaxe", 1);
+        rareore = new BlockRareOre(542, Material.rock, 25F, 25F, Block.soundMetalFootstep, "Rare Ore", "pickaxe", 2);
+        legendaryore = new BlockLegendaryOre(543, Material.rock, 25F, 25F, Block.soundMetalFootstep, "Legendary Ore", "pickaxe", 3);
 
         MinecraftForge.setBlockHarvestLevel(mundaneore, mundaneore.harvesttool, mundaneore.harvestlevel);
         MinecraftForge.setBlockHarvestLevel(magicore, magicore.harvesttool, magicore.harvestlevel);

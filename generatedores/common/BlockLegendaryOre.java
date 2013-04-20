@@ -16,6 +16,7 @@ public class BlockLegendaryOre extends Block {
         this.setCreativeTab(CreativeTabs.tabBlock);
         this.setResistance(resistance);
         this.setStepSound(stepsound);
+        this.setHardness(hardness);
         this.name = name;
         this.harvesttool = harvesttool;
         this.harvestlevel = harvestlevel;
