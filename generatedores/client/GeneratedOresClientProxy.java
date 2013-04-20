@@ -1,6 +1,6 @@
-package miscsubbin.generatedores.client;
+package mods.generatedores.client;
 
-import miscsubbin.generatedores.common.GeneratedOresCommonProxy;
+import mods.generatedores.common.GeneratedOresCommonProxy;
 
 public class GeneratedOresClientProxy extends GeneratedOresCommonProxy {
 

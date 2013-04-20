@@ -1,4 +1,4 @@
-package miscsubbin.generatedores.common;
+package mods.generatedores.common;
 //matt is awesome
 
 import net.minecraft.block.Block;
@@ -24,7 +24,7 @@ public class GeneratedOresMain {
     @Instance("generatedores")
     public static GeneratedOresMain instance;
 
-    @SidedProxy(clientSide="miscsubbin.generatedores.client.GeneratedOresClientProxy", serverSide="miscsubbin.generatedores.common.GeneratedOresCommonProxy")
+    @SidedProxy(clientSide="mods.generatedores.client.GeneratedOresClientProxy", serverSide="mods.generatedores.common.GeneratedOresCommonProxy")
     public static GeneratedOresCommonProxy proxy;
 
     public static BlockMundaneOre mundaneore;

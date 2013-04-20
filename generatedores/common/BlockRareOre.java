@@ -1,4 +1,4 @@
-package miscsubbin.generatedores.common;
+package mods.generatedores.common;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.StepSound;

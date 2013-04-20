@@ -1,5 +1,5 @@
-package miscsubbin.generatedores.common;
+package mods.generatedores.common;
 
 public class GeneratedOresCommonProxy {
-
+	
 }
