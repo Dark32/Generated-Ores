@@ -3,6 +3,7 @@ package mods.generatedores.common;
 import net.minecraft.block.Block;
 import net.minecraft.block.StepSound;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockRareOre extends Block {
@@ -19,5 +20,9 @@ public class BlockRareOre extends Block {
         this.name = name;
         this.harvesttool = harvesttool;
         this.harvestlevel = harvestlevel;
+    }
+    @Override
+    public void registerIcons(IconRegister reg){
+    	this.blockIcon = reg.registerIcon("generatedores:RareOre");
     }
 }
