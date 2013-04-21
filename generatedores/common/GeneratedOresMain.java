@@ -1,5 +1,6 @@
 package mods.generatedores.common;
 
+import mods.generatedores.lib.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.MinecraftForge;
@@ -53,10 +54,10 @@ public class GeneratedOresMain {
         GameRegistry.registerBlock(rareore, "rareore");
         GameRegistry.registerBlock(legendaryore, "legendaryore");
 
-        LanguageRegistry.addName(mundaneore, mundaneore.getUnlocalizedName());
-        LanguageRegistry.addName(magicore, magicore.getUnlocalizedName());
-        LanguageRegistry.addName(rareore, rareore.getUnlocalizedName());
-        LanguageRegistry.addName(legendaryore, legendaryore.getUnlocalizedName());
+        LanguageRegistry.addName(mundaneore, Strings.MUNDANEORE);
+        LanguageRegistry.addName(magicore, Strings.MAGICORE);
+        LanguageRegistry.addName(rareore, Strings.RAREORE);
+        LanguageRegistry.addName(legendaryore, Strings.LEGENDARYORE);
         
         GameRegistry.registerWorldGenerator(new GeneratedBlockWorldGenerator());
     }
